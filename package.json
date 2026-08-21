@@ -1,0 +1,33 @@
+{
+  "name": "npm-package",
+  "version": "1.0.0",
+  "description": "first npm package",
+  "keywords": [
+    "demo",
+    "typescript"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "ci": "npm run build",
+    "format": "prettier --write ."
+  },
+  "homepage": "https://github.com/sclatch1/npm-packag",
+  "bugs": {
+    "url": "https://github.com/sclatch1/npm-package/issues"
+  },
+  "author": "david scalais <david.scalais@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sclatch1/npm-package.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^3.9.6",
+    "typescript": "^7.0.2"
+  }
+}
