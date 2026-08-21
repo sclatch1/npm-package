@@ -1,5 +1,5 @@
 {
-  "name": "npm-package",
+  "name": "npm-package-sclatch",
   "version": "1.0.1",
   "description": "first npm package",
   "keywords": [
@@ -31,12 +31,10 @@
   "type": "module",
   "main": "dist/index.js",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
+    "@changesets/cli": "^2.31.1",
     "prettier": "^3.9.6",
     "typescript": "^7.0.2",
     "vitest": "^4.1.11"
-  },
-  "devDependencies": {
-    "@changesets/cli": "^2.31.1"
   }
 }
